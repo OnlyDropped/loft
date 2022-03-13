@@ -1,10 +1,21 @@
 *,
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
 }
-.container{
+html,
+body {
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  flex-grow: 1;
+}
+.container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
