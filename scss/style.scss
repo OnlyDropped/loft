@@ -2,12 +2,26 @@
 @import "vars";
 @import "reset";
 @import "global";
-.start-page{
-  background-color: #b6cbd1;
+.start-page {
+  //background-color: #b6cbd1;
   height: 100vh;
-  &__wrapper{
+  &__wrapper {
     display: flex;
     flex-direction: column;
+    //background-color: #43bf57;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  &__link + .start-page__link {
+    margin-top: 20px;
+  }
+  &__link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: $text;
   }
 }
 .header-top {
@@ -114,7 +128,6 @@
     display: flex;
     align-items: center;
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;

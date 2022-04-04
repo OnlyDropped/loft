@@ -92,7 +92,6 @@ body {
 }
 
 .start-page {
-  background-color: #b6cbd1;
   height: 100vh;
 }
 
@@ -104,6 +103,25 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.start-page__link + .start-page__link {
+  margin-top: 20px;
+}
+
+.start-page__link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #414141;
 }
 
 .header-top {
@@ -289,7 +307,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
