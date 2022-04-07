@@ -107,7 +107,6 @@
       </div>
     </header>
     <main class="main">
-
       <section class="breadcrumbs">
         <div class="container">
           <ul class="breadcrumbs__list">
@@ -125,24 +124,32 @@
         <div class="container">
           <h6 class="contacts__title">Свяжитесь с нами</h6>
           <div class="contacts__wrapper">
-
             <div class="contacts-form">
               <form class="contacts-form__form" action="#">
                 <label class="contacts-form__label" for="">
                   <div class="contacts-form__title">Ваше имя</div>
-                  <input class="contacts-form__input" type="text">
+                  <input class="contacts-form__input" type="text" />
                 </label>
                 <label class="contacts-form__label" for="">
                   <div class="contacts-form__title">Ваш e-mail</div>
-                  <input class="contacts-form__input contacts-form__email" type="email">
+                  <input
+                    class="contacts-form__input contacts-form__email"
+                    type="email"
+                  />
                 </label>
                 <label class="contacts-form__label" for="">
                   <div class="contacts-form__title">Сообщение</div>
                   <textarea class="contacts-form__textarea"></textarea>
                 </label>
                 <div class="contacts-form__btn">
-                  <input class="contacts-form__file" type="file" data-placeholder="Прикрепить файл">
-                  <button class="contacts-form__submit" type="submit">Отправить</button>
+                  <input
+                    class="contacts-form__file"
+                    type="file"
+                    data-placeholder="Прикрепить файл"
+                  />
+                  <button class="contacts-form__submit" type="submit">
+                    Отправить
+                  </button>
                 </div>
               </form>
             </div>
@@ -150,29 +157,38 @@
               <ul class="contacts-info__list">
                 <li class="contacts-info__item">
                   <a class="contacts-info__link" href="#">
-                    <img src="img/icons/phone-2.svg" alt="">
+                    <img src="img/icons/phone-2.svg" alt="" />
                     8 (964) 89 99 119
                   </a>
                 </li>
                 <li class="contacts-info__item">
                   <a class="contacts-info__link" href="#">
-                    <img src="img/icons/mail.svg" alt="">
+                    <img src="img/icons/mail.svg" alt="" />
                     mebel_loft_anapa@mail.ru
                   </a>
                 </li>
                 <li class="contacts-info__item">
                   <a class="contacts-info__link" href="#">
-                    <img src="img/icons/inst.svg" alt="">
+                    <img src="img/icons/inst.svg" alt="" />
                     INSTAGRAM
                   </a>
                 </li>
               </ul>
-              <address class="contacts-info__address">Адрес: г. Анапа, Анапское шоссе, 30 Ж/К Черное море</address>
+              <address class="contacts-info__address">
+                Адрес: г. Анапа, Анапское шоссе, 30 Ж/К Черное море
+              </address>
             </div>
           </div>
         </div>
       </section>
-
+      <section class="map">
+        <div class="container">
+          <h6 class="contacts__title map__title">Адрес нашей компании</h6>
+          <div class="map__address">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/1107/anapa/?utm_medium=mapframe&utm_source=maps" style="color:rgb(157, 7, 7);font-size:12px;position:absolute;top:0px;">Анапа</a><a href="https://yandex.ru/maps/1107/anapa/?ll=37.356441%2C44.897600&mode=whatshere&utm_medium=mapframe&utm_source=maps&whatshere%5Bpoint%5D=37.354445%2C44.898527&whatshere%5Bzoom%5D=17&z=17" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUBf6CRKC" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative; border: none;"></iframe></div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
@@ -275,7 +291,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.min.js"></script>
     <script src="js/app.js"></script>
     <script>
-      $('.contacts-form__file').styler();
+      $(".contacts-form__file").styler();
     </script>
   </body>
 </html>

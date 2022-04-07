@@ -944,7 +944,22 @@
   &__sort {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+  &__btn {
+    border: none;
+    padding: 0;
+    background: #f9f9f9;
+    padding: 13px 48px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    cursor: pointer;
+    display: none;
   }
   .jq-selectbox {
     width: 155px;
@@ -1081,6 +1096,7 @@
   border: 1px solid #43bf57;
 }
 .contacts {
+  padding-bottom: 25px;
   &__title {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -1678,6 +1694,12 @@
     font-size: 24px;
     line-height: 34px;
     color: #414141;
+  }
+}
+.map {
+  padding: 25px 0 70px;
+  &__address {
+    width: 100%;
   }
 }
 .footer {
