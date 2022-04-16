@@ -2597,6 +2597,36 @@ body {
     z-index: 3;
     right: 49px;
   }
+  .breadcrumbs {
+    padding: 10px 0 20px;
+  }
+  .contacts__title {
+    margin-bottom: 30px;
+  }
+  .contacts-form {
+    width: 400px;
+  }
+  .contacts-form__label {
+    max-width: 100%;
+    width: 100%;
+  }
+  .contacts-form__input {
+    max-width: 100%;
+    width: 100%;
+  }
+  .contacts-form__textarea {
+    max-width: 100%;
+  }
+  .contacts-info {
+    margin-left: 50px;
+  }
+  .contacts-info__list {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media (max-width: 425px) {
@@ -2663,6 +2693,23 @@ body {
   }
   .card__item {
     width: 180px;
+  }
+  .contacts__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+  }
+  .contacts-form {
+    width: 100%;
+  }
+  .contacts-info {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .map {
+    padding: 20px 0 30px;
   }
   .footer-top {
     padding-top: 35px;
@@ -2756,6 +2803,12 @@ body {
   .card__item .card__like {
     top: 0px;
     right: 0px;
+  }
+  .breadcrumbs {
+    padding: 10px 0 15px;
+  }
+  .contacts__title {
+    margin-bottom: 20px;
   }
   .footer-bottom {
     -webkit-box-orient: vertical;
