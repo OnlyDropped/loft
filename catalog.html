@@ -1481,6 +1481,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jQueryFormStyler/2.0.2/jquery.formstyler.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
     <script src="js/app.js"></script>
-    <script></script>
+    <script>
+      $('.catalog-content__btn').on('click', function () {
+        $('.catalog-filter').toggleClass('active');
+      })
+    </script>
   </body>
 </html>
