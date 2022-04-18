@@ -13,6 +13,35 @@
       padding: 24px 5px;
     }
   }
+  .cart-slider {
+    //background-color: #43bf57;
+    width: 475px;
+    overflow: hidden;
+    &__main {
+      width: 475px;
+    }
+    &__for {
+      width: 475px;
+      //background-color: violet;
+    }
+    &__big {
+      width: 475px;
+      //background: darkcyan;
+      img {
+        width: 450px;
+        height: 185px;
+        margin: auto;
+      }
+    }
+    &__nav {
+      width: 475px;
+    }
+  }
+  .description {
+    &__left {
+      max-width: 480px;
+    }
+  }
   .card {
     &__wrap {
       row-gap: 43px;
@@ -130,14 +159,14 @@
   .catalog-filter {
     transform: translateX(-150%);
     display: none;
-    transition: all .6s;
+    transition: all 0.6s;
   }
   .catalog-filter.active {
     transform: translateX(0%);
     position: absolute;
     display: block;
     z-index: 11;
-    transition: all .6s;
+    transition: all 0.6s;
   }
   .catalog-content {
     max-width: 100%;
@@ -145,6 +174,56 @@
     &__btn {
       display: block;
       z-index: 12;
+    }
+  }
+  .cart {
+    &__wrapper {
+      flex-direction: column;
+    }
+  }
+  .cart-info {
+    max-width: 100%;
+    margin-left: 0;
+    &__buy {
+      margin-right: auto;
+      margin-left: 20px;
+    }
+  }
+  .cart-slider {
+    width: 720px;
+    &__main {
+      width: 720px;
+    }
+    &__for {
+      width: 720px;
+      //background-color: khaki;
+    }
+    &__big {
+      width: 599px;
+      height: 249px;
+      margin: auto;
+      img {
+        width: 599px;
+        height: 249px;
+      }
+    }
+    &__nav {
+      width: 720px;
+    }
+  }
+  .description {
+    &__left {
+      max-width: 390px;
+    }
+    &__right {
+      max-width: 300px;
+    }
+    &__my-review {
+      margin-top: 0px;
+      margin-left: 15px;
+    }
+    &__review {
+      padding: 20px 15px;
     }
   }
 }
@@ -215,17 +294,17 @@
       width: 180px;
     }
   }
-  .catalog-content{
-    .container{
+  .catalog-content {
+    .container {
       padding: 0;
     }
-    .card{
+    .card {
       padding: 0;
     }
     //&__card{
     //  background-color: cadetblue;
     //}
-    .card__item{
+    .card__item {
       overflow: hidden;
     }
   }
@@ -242,7 +321,41 @@
     width: 100%;
     margin-left: 0px;
   }
-
+  .cart-slider {
+    width: 378px;
+    &__main {
+      width: 378px;
+    }
+    &__for {
+      width: 378px;
+      //height: 325px;
+      height: 250px;
+      //background-color: maroon;
+    }
+    &__big {
+      width: 355px;
+      height: 230px;
+      margin: auto;
+      img {
+        width: 355px;
+        height: 145px;
+      }
+    }
+    &__small {
+      width: 100px !important;
+      margin: 0 5px;
+    }
+  }
+  .cart-slider__nav {
+    width: 378px;
+    height: 90px;
+  }
+  .cart-info {
+    &__wrap {
+      flex-wrap: wrap;
+      row-gap: 10px;
+    }
+  }
   .map {
     padding: 20px 0 30px;
   }
@@ -318,6 +431,32 @@
       }
     }
   }
+  .cart-slider {
+    width: 328px;
+    &__main {
+      width: 328px;
+    }
+    &__for {
+      width: 328px;
+      height: 300px;
+      //background-color: mediumorchid;
+    }
+    &__big {
+      width: 310px;
+      height: 220px;
+      display: flex !important;
+      img {
+        width: 300px;
+        height: 160px;
+        width: 321px;
+        height: 122px;
+        margin: auto !important;
+      }
+    }
+    &__nav {
+      width: 328px;
+    }
+  }
   .footer-top {
     &__nav {
       flex-wrap: wrap;
@@ -342,7 +481,6 @@
     }
     &__item {
       width: 130px;
-      //background-color: #c83d3d;
       padding-left: 0;
       .card__like {
         top: 0px;
@@ -352,13 +490,34 @@
   }
   .breadcrumbs {
     padding: 10px 0 15px;
-    &__list{
+    &__list {
       flex-wrap: wrap;
     }
   }
   .contacts {
     &__title {
       margin-bottom: 20px;
+    }
+  }
+  .cart-slider {
+    width: 273px;
+    &__main {
+      width: 273px;
+    }
+    &__for {
+      width: 273px;
+      height: 200px;
+    }
+    &__big {
+      width: 273px;
+      height: 165px;
+      img {
+        width: 266px;
+        height: 110px;
+      }
+    }
+    &__nav {
+      width: 273px;
     }
   }
   .footer-bottom {
