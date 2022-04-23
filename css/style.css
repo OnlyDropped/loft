@@ -2560,6 +2560,28 @@ body {
   .card__add {
     padding: 13px 28px 12px;
   }
+  .about::after {
+    width: 100px;
+  }
+  .buy__wrap {
+    row-gap: 35px;
+  }
+  .buy__item {
+    width: 460px;
+  }
+  .advantage__item {
+    width: 480px;
+  }
+  .advantage__card {
+    width: 470px;
+    padding: 15px;
+  }
+  .we {
+    padding: 60px 0px;
+  }
+  .comfort {
+    padding: 87px 0px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2750,6 +2772,48 @@ body {
         flex-wrap: wrap;
     row-gap: 10px;
   }
+  .about__wrapper {
+    padding: 45px 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .about::before {
+    width: 340px;
+  }
+  .about__info {
+    width: 440px;
+    margin-left: 20px;
+  }
+  .about::after {
+    width: 28px;
+    top: 65px;
+  }
+  .buy {
+    padding: 70px 0px;
+  }
+  .buy__item {
+    width: 100%;
+  }
+  .advantage__item {
+    width: 100%;
+  }
+  .advantage__card {
+    width: 100%;
+  }
+  .we__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 15px;
+  }
+  .we__item {
+    width: 100%;
+  }
+  .comfort {
+    padding: 55px 0px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -2902,6 +2966,28 @@ body {
             flex-direction: column;
     row-gap: 10px;
   }
+  .buy {
+    padding: 50px 0px;
+  }
+  .about__info {
+    width: 100%;
+    margin-left: 0;
+  }
+  .about::before {
+    width: 250px;
+  }
+  .about__content {
+    display: none;
+  }
+  .about::after {
+    content: none;
+  }
+  .about-info {
+    padding: 40px 0;
+  }
+  .about-info__item {
+    width: 100%;
+  }
   .footer-top {
     padding-top: 35px;
   }
@@ -3014,6 +3100,20 @@ body {
         -ms-flex-align: baseline;
             align-items: baseline;
     margin-left: auto;
+  }
+  .buy__title {
+    margin-bottom: 50px;
+  }
+  .buy__item img {
+    margin-right: 20px;
+    width: 55px;
+    height: 55px;
+  }
+  .we {
+    padding: 35px 0px;
+  }
+  .comfort {
+    padding: 35px 0px;
   }
   .footer-top__nav {
     -ms-flex-wrap: wrap;
